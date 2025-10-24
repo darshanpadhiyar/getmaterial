@@ -229,7 +229,7 @@ function Upload() {
         formData.append('file', selectedFile);
 
         const response = await axios.post(
-          'https://getmaterial-5sra.onrender.com',
+          'https://getmaterial-cyan.vercel.app',
           formData,
           {
             headers: {
