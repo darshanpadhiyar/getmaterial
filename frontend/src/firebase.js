@@ -24,16 +24,27 @@ import {
 //     appId: "1:366377409289:web:31371992ec5ec4e8fb91d8",
 //     measurementId: "G-WG5LX7Z162"
 // };
+// ✅ Correct Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyC27q8WprpN2_mnuH6F-xn7dB7M-bCIdxg",
+  authDomain: "mymaterial-371e6.firebaseapp.com",
+  projectId: "mymaterial-371e6",
+  storageBucket: "mymaterial-371e6.appspot.com", // ✅ fixed here
+  messagingSenderId: "888883168127",
+  appId: "1:888883168127:web:0d424fb2365ffd9993d04a",
+  measurementId: "G-KTRWJVTXFK"
+};
 
- const firebaseConfig = {
-    apiKey: "AIzaSyC27q8WprpN2_mnuH6F-xn7dB7M-bCIdxg",
-    authDomain: "mymaterial-371e6.firebaseapp.com",
-    projectId: "mymaterial-371e6",
-    storageBucket: "mymaterial-371e6.firebasestorage.app",
-    messagingSenderId: "888883168127",
-    appId: "1:888883168127:web:0d424fb2365ffd9993d04a",
-    measurementId: "G-KTRWJVTXFK"
-  };
+
+ // const firebaseConfig = {
+ //    apiKey: "AIzaSyC27q8WprpN2_mnuH6F-xn7dB7M-bCIdxg",
+ //    authDomain: "mymaterial-371e6.firebaseapp.com",
+ //    projectId: "mymaterial-371e6",
+ //    storageBucket: "mymaterial-371e6.firebasestorage.app",
+ //    messagingSenderId: "888883168127",
+ //    appId: "1:888883168127:web:0d424fb2365ffd9993d04a",
+ //    measurementId: "G-KTRWJVTXFK"
+ //  };
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
