@@ -92,7 +92,7 @@ export default function ContributorAuth() {
         'https://api.brevo.com/v3/smtp/email', 
         {
           sender: { 
-            email:'useles436@gmail.com'
+            email:'darshanpadhiyar38@gmail.com'
           },
           to: [{ email }],
           subject: 'Your OTP for Get Material Login',
