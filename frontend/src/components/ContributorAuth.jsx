@@ -130,10 +130,10 @@ export default function ContributorAuth() {
 
 
     // EMAIL DOMAIN VALIDATION - Accept any .edu email
-    if (!email.endsWith('.edu')) {
-      alert('Only .edu email addresses are allowed. Please use your college email account.');
-      return;
-    }
+    // if (!email.endsWith('.edu')) {
+    //   alert('Only .edu email addresses are allowed. Please use your college email account.');
+    //   return;
+    // }
 
     
 
