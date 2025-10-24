@@ -55,12 +55,12 @@ export default function ContributorAuth() {
       const user = result.user;
       
       // Check if the email ends with .edu
-      if (!user.email.endsWith('.edu')) {
-        // Sign out the user if they don't have an .edu email
-        await auth.signOut();
-        alert('Only .edu email addresses are allowed. Please use your college email account.');
-        return;
-      }
+      // if (!user.email.endsWith('.edu')) {
+      //   // Sign out the user if they don't have an .edu email
+      //   await auth.signOut();
+      //   alert('Only .edu email addresses are allowed. Please use your college email account.');
+      //   return;
+      // }
       
       navigate('/upload');
     } catch (error) {
